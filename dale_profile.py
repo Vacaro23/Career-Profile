@@ -140,7 +140,7 @@ if my_page == 'Career Profile':
     - Collaboratively worked smoothly with AU client stakeholders for business understanding with self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every data questions.
     - Proactively pinpointed data logic issues, creating potential solutions and test cases in order to exceedingly solve client problems and root causes.
     - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity using ABBYY FlexiCapture, and achieved an outperforming result with 0 escalation.
-    - Generated ideas and created proposals to Technical Specialists for process and optimization with the goal of improving efficacies of all team members in the project.
+    - Generated ideas and created proposals to Technical Specialists for process optimization with the goal of improving efficacies of all team members in the project.
     ''')
     
 
@@ -166,11 +166,11 @@ if my_page == 'Career Profile':
     txt('Content Operations & Managed Services, London Stock Exchange Group, Philippines', '')
     st.markdown('''
     - Selected as one of the Top 10% Outstanding Employees in the Organization, achieved the highest rating of ‘Leading’ in 2020 Company Year-End Assessment- as a measure of exemplary performance by the following that saved 0.55 FTE:
-        - by creation of method of works and documentations,
-        - by doing finanical markets data manipulation and analyzation,
-        - by stock exchange projects and migration
-        - by building 15 excel macros initiatives and
-        - by generating automation ideations and proposals
+         - by creation of method of works and documentations,
+         - by doing finanical markets data manipulation and analyzation,
+         - by stock exchange projects and migration
+         - by building 15 excel macros initiatives and
+         - by generating automation ideations and proposals
     - Successfully accomplished remarkable performance with 99% data integrity of my daily productions which consistently gave me the award of  ‘Star of the Month’ or ‘Employee of the Month’, within our team - composed of 8 Analysts and 4 Senior Analysts.
     - Successfully planned, supervised and coordinated daily BAU, conducted weekend testings and migrations for new and critical content enhancements on the databases and products with no supervision from seniors and managers.
     - Performed change management in every projects to improve the transition of the change, collaboration, communication and to create change plans to reduce uncertain issues that avoids client escalations through ServiceNOW.
