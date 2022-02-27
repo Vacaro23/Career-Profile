@@ -31,8 +31,8 @@ if my_page == 'Career Profile':
     st.markdown('## Summary', unsafe_allow_html=True)
     st.info('''
     - An Inquisitive Leader focused on Data, Innovation and Technology.
-    - Experienced Data Professional in Financial Services and Consulting Industry specializing Financial Markets, and Revenue Data.
-    - Experienced in CustomerRelationship Management, Data Management, Business Operations & Sales Enablement, and Content Operations.
+    - Exposed Data Professional in Financial Services and Consulting Industry specializing Financial Markets, and Revenue Data.
+    - Experienced in Customer Relationship Management, Content Operations, Data Management, and Business Operations & Sales Enablement.
     - Expert in streamlining Financial Markets and Revenue data to deliver its best quality to customers and help senior leaders generate strategic data-driven decisions through Research Methods, Exploratory Data Analysis, and Machine Learning Algorithms.
     ''')
 
@@ -53,7 +53,7 @@ if my_page == 'Career Profile':
             <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#education">Education</a>
+            <a class="nav-link" href="#objective">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work-experience">Work Experience</a>
@@ -139,8 +139,8 @@ if my_page == 'Career Profile':
     st.markdown('''
     - Collaboratively worked smoothly with AU client stakeholders for business understanding with self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every data questions.
     - Proactively pinpointed data logic issues, creating potential solutions and test cases in order to exceedingly solve client problems and root causes.
-    - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity using ABBYY FlexiCapture, and achieved an outperforming performance with 0 escalation.
-    - Generated ideas and created proposals to Technical Specialists to optimize processes and improve efficacies of all members in the project.
+    - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity using ABBYY FlexiCapture, and achieved an outperforming result with 0 escalation.
+    - Generated ideas and created proposals to Technical Specialists for process and optimization with the goal of improving efficacies of all team members in the project.
     ''')
     
 
@@ -163,7 +163,7 @@ if my_page == 'Career Profile':
     '2021 - 2021')
     txt('`FINANCIAL MARKETS ANALYST I`',
     '2019 - 2021')
-    txt('Business Operations & Sales Enablement, London Stock Exchange Group, Philippines', '')
+    txt('Content Operations & Managed Services, London Stock Exchange Group, Philippines', '')
     st.markdown('''
     - Selected as one of the Top 10% Outstanding Employees in the Organization, achieved the highest rating of ‘Leading’ in 2020 Company Year-End Assessment- as a measure of exemplary performance by the following that saved 0.55 FTE:
         - by creation of method of works and documentations,
@@ -424,22 +424,17 @@ elif my_page == 'Project #1: 2019 Senatorial Elections':
     st.image(image, width=750)
     st.caption("**6/10** Top Candidates Spenders were able to win!")
     
-    
     image = Image.open('eda-4.jpeg')
     st.image(image, width=750)
     st.caption("**9%** of Senatorial Candidates were Non-Spenders which did not invest on Social Media resulting to low interactions with PH Audience. Hence, in this illustration there was a high correlation between being a non-spender and social media interactions.")
-    
-    
     
     image = Image.open('eda-6.jpeg')
     st.image(image, width=750)
     st.caption("On the other hand, **91%** of the Top Spender Candidates; had a high investments on their Expenditures with **78%** corr and specifically with **75%** correlation with Political Advertisements.")
     
-    
     image = Image.open('eda-2.jpeg')
     st.image(image, width=750)
     st.caption("Looking the Winners Expenditures, **11/12** Senatorial Winners averagely spent **89%** on Political Advertisement.")
-    
     
     image = Image.open('eda-3.jpeg')
     st.image(image, width=750)
@@ -485,7 +480,6 @@ elif my_page == 'Project #1: 2019 Senatorial Elections':
     image = Image.open('reco_4.jpeg')
     st.image(image, width=750)
     st.caption("It is important to note that these measures are tailor fitted to these countries. The Philippines has to figure out its own blend of election policies and checks.")
-        
         
     image = Image.open('improv.jpeg')
     st.image(image, width=750)
