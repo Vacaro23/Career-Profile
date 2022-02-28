@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 import pandas as pd
+import matplotlib.pyplot as plt 
+import seaborn as sns
  
 ##########
 
@@ -13,7 +15,7 @@ st.set_page_config(
 )
 
 
-my_page = st.sidebar.radio('Page Navigation', ['Career Profile', 'Project #1: 2019 Senatorial Elections', 'Project #2'])
+my_page = st.sidebar.radio('Page Navigation', ['Career Profile', 'Project #1: 2019 Senatorial Elections', 'File Upload'])
 
 
 if my_page == 'Career Profile':
@@ -500,3 +502,76 @@ elif my_page == 'Project #1: 2019 Senatorial Elections':
     st.caption(
         "Avis, E., Ferraz, C., Finan, F., & Varjão, C. (2021, July). Money and Politics: The Effects of Campaign Spending Limits on Political Entry and Competition. Econometrics Laboratory, UC Berkeley. Retrieved November 26, 2021, from https://eml.berkeley.edu/~ffinan/Finan_Limits.pdf.")
 
+
+elif my_page == 'File Upload':
+    #####################
+    # Header 
+    st.title('''
+    Sample File Uploader Page
+    ''')
+    
+    w = st.file_uploader("Upload a CSV file", type="csv")
+    if w:
+        import pandas as pd
+
+        data = pd.read_csv(w)
+        st.write(data)
+        
+            #####################
+        # Custom function for printing text
+        def txt(a, b):
+          col1, col2 = st.columns([4,1])
+          with col1:
+            st.markdown(a)
+          with col2:
+            st.markdown(b)
+
+        def txt2(a, b):
+          col1, col2 = st.columns([1,4])
+          with col1:
+            st.markdown(f'`{a}`')
+          with col2:
+            st.markdown(b)
+
+        def txt3(a, b):
+          col1, col2 = st.columns([1,2])
+          with col1:
+            st.markdown(a)
+          with col2:
+            st.markdown(b)
+
+        def txt4(a, b, c):
+          col1, col2, col3 = st.columns([1.5,2,2])
+          with col1:
+            st.markdown(f'`{a}`')
+          with col2:
+            st.markdown(b)
+          with col3:
+            st.markdown(c)
+
+        def txt5(a, b, c):
+          col1, col2, col3 = st.columns([1.5,2,2])
+          with col1:
+            st.markdown(a)
+          with col2:
+            st.markdown(b)
+          with col3:
+            st.markdown(c)
+
+
+        st.markdown(''' ### DataFrame Shape ''')
+        data.shape
+        
+        st.markdown(''' ### DataFrame Statistics ''')
+        data.describe
+        
+        st.markdown(''' ## Duplicates ''')
+        data_dup= data.isna().sum()
+        data_dup
+        
+        st.markdown(''' ## Correlation ''')
+        data_cor = data.corr()
+        data_cor
+        
+        # st.markdown(''' ## Heatmap ''')
+        #Visualize the correlation
