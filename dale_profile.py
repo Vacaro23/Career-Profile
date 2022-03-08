@@ -150,11 +150,19 @@ if my_page == 'Career Profile':
     # ''')
     
 
-
-
+    txt('`SENIOR ANALYTICS CONSULTANT`',
+    '2022 - Present')
+    txt('Deloitte - Risk Advisory: AU', '')
+    st.markdown('''
+    ---
+    ''')
+    
+    st.title("")
+    
+    
     txt('`BUSINESS OPERATIONS ANALYST`',
     '2021 - 2021')
-    txt('London Stock Exchange Group - Business Operations & Sales Enablement', '')
+    txt('London Stock Exchange Group - Business Operations & Sales Enablement : AMERS', '')
     st.markdown('''
     - Successfully passed sponsored certification of “Financial Information Associate” (FIA) worth 900 USD and recently granted another sponsorship worth 2,000 USD to expand knowledge in Business Analysis and Data Science, given only to Top 25% outperforming employees in the organization.
     - Lead the performance metric evaluation of 230+ product sellers in Amers, presenting the result to Head of Americas of Business Operations.
@@ -175,7 +183,7 @@ if my_page == 'Career Profile':
     '2021 - 2021')
     txt('`FINANCIAL MARKETS ANALYST I`',
     '2019 - 2021')
-    txt('London Stock Exchange Group - Content Operations & Managed Services', '')
+    txt('London Stock Exchange Group - Content Operations & Managed Services: EMEA & SEA', '')
     st.markdown('''
     - Selected as one of the Top 10% Outstanding Employees in the Organization, achieved the highest rating of ‘Leading’ in 2020 Company Year-End Assessment - as a measure of exemplary performance by the following that saved 0.55 FTE:
         - by creation of method of works and documentations,
@@ -237,7 +245,7 @@ if my_page == 'Career Profile':
         
         
     txt('`DATA SCIENCE & BUSINESS ANALYTICS INTERN`',
-    '2022 - Present')
+    '2022 - 2022')
     txt('The Sparks Foundation - Data Science & Machine Learning', '')
     st.markdown('''
     - Started a Project as a Business Manager, to do an Exploratory Data Analysis on a Retail Business dataset in order to identify Business Dilemma and to raise Profit, based on the given data.
