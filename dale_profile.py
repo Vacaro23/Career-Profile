@@ -123,9 +123,12 @@ if my_page == 'Career Profile':
     '2015 - 2019')
     st.markdown('''
     - GPA: `1.63`
-    - Dean's Lister
-    - Top Finance Achiever
+    - Dean's Lister  |  Top Finance Achiever
     - National Finalist of Top Outstanding Finance Students of the Philippines
+    - Organization : Junitor Financial Executives - PLM Chapter
+        - Junior Officer
+        - Vice President for Publicity and Communication
+        - Vice President for External Affairs
     ''')
 
     st.title("")
