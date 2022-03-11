@@ -164,7 +164,7 @@ if my_page == 'Career Profile':
     '2021 - 2021')
     txt('London Stock Exchange Group - Business Operations & Sales Enablement : AMERS', '')
     st.markdown('''
-    - Successfully passed sponsored certification of “Financial Information Associate” (FIA) worth 900 USD and recently granted another sponsorship worth 2,000 USD to expand knowledge in Business Analysis and Data Science, given only to Top 25% outperforming employees in the organization.
+    - Successfully passed sponsored certification of “Financial Information Associate” (FIA) worth $900 given to Top Outperforming employees.
     - Lead the performance metric evaluation of 230+ product sellers in Amers, presenting the result to Head of Americas of Business Operations.
     - Developed global data visualization reports and dashboards for pipeline management to forecast sales data for Senior Directors, Managers, and Sales Stakeholders.
     - Drived new logos and white space growth through historical data analysis and forecasting monthly recurring sales for the whole Americas region.
