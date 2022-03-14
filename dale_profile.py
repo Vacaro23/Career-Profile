@@ -54,7 +54,7 @@ if my_page == 'Career Profile':
             <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#objective">Education</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#work-experience">Work Experience</a>
@@ -63,7 +63,7 @@ if my_page == 'Career Profile':
             <a class="nav-link" href="#bootcamps-trainings-courses">L&D</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#social-media">Social Media</a>
@@ -113,49 +113,54 @@ if my_page == 'Career Profile':
         st.markdown(b)
       with col3:
         st.markdown(c)
-        
-    #####################
-    st.markdown('''
-    ## Education
-    ''')
-
-    txt('**Business Administration Major in Financial Management**, *Pamantasan ng Lungsod ng Maynila*, Philippines',
-    '2015 - 2019')
-    st.markdown('''
-    - GPA: `1.63`
-    - Dean's Lister  |  Top Finance Achiever
-    - National Finalist of Top Outstanding Finance Students of the Philippines
-    - Organization : Junitor Financial Executives - PLM Chapter
-        - Junior Officer
-        - Vice President for Publicity and Communication
-        - Vice President for External Affairs
-    ''')
-
-    st.title("")
     
+    def txt6(a, b):
+      col1, col2 = st.columns([2.5,4])
+      with col1:
+        st.markdown(f'`{a}`')
+      with col2:
+        st.markdown(b)
+        #####################
+    st.markdown('''
+    ## Skills
+    ''')
+    txt3('Programming', '`Python`')
+    txt3('Data Transformation', '`Advanced Excel`, `VBA`, `Alteryx`, `pandas`, `numpy`, `nltk`')
+    txt3('Data Visualization', '`Tableau`, `PowerBI`, `Google Data Studio`, `Excel`,`matplotlib`, `seaborn`, `bokeh`, `shap & lime`')
+    txt3('Machine Learning', '`scikit-learn`, `scipy`, `gensim`, `networkx`')
+    txt3('Web Scraping', '`beautifiulsoup`')
+    txt3('Process Automation', '`selenium`')
+    txt3('Model Deployment', '`streamlit`, `Heroku`')
+    txt3('Customer Relationship Management', '`Salesforce ServiceCloud`, `Salesforce Trust`, `Salesforce Lightning`')
+    txt3('Change Management', '`ServiceNOW`')
+    txt3('Documentations', '`Confluence`,`Sharepoint`')
+    txt3('Issue Tracking & Project Management', '`JIRA`')
+    txt3('Fundamental Knowledge', '`Databricks`,`Regular Expression`, `RStudio`, `Test Automation`')
+    
+    st.title("")
+
     
     #####################
     st.markdown('''
     ## Work Experience
     ''')
-
-    # txt('`SENIOR ANALYTICS CONSULTANT`',
-    # '2021 - Present')
-    # txt('Risk Advisory, Deloitte, Philippines', '')
-    # st.markdown('''
-    # - Collaboratively worked smoothly with AU client stakeholders for business understanding with self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every data questions.
-    # - Proactively pinpointed data logic issues, creating potential solutions and test cases in order to exceedingly solve client problems and root causes.
-    # - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity using ABBYY FlexiCapture, and achieved an outperforming result with 0 escalation.
-    # - Generated ideas and created proposals to Technical Specialists for process and optimization with the goal of improving efficacies of all team members in the project.
-    # ''')
     
 
     txt('`SENIOR ANALYTICS CONSULTANT`',
     '2022 - Present')
     txt('Deloitte - Risk Advisory: AU', '')
-    st.markdown('''
-    ---
-    ''')
+#     st.markdown('''
+#     - Pioneered the Data Science Team in Deloitte PH - Risk Advisory Business to create and implement AI solutions to be offered to clients.
+#         - Constructed a technical framework of Predictive Attrition model for employees through Data Science and Machine Learning Algorithms.
+#         - Structured a pipeline for Signature Detection using Image Processing and Detection to extract and verified signatures in documents.
+#         - Contributed to the Voice Detection data gathering in improving TrueVoice solutions for conduct detection and tagging.
+#     - Collaborated smoothly with client stakeholders to have a business understanding with a self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every client data and business questions.
+#     - Proactively pinpointed data logic issues, creating solutions and use cases in order to exceedingly solve client problems and root causes.
+#     - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity, and achieved a great performance with 0 escalation.
+#     - Generated ideas and created proposals to Technical Specialists to optimize processes and improve efficacies of all members in a project.
+
+
+#     ''')
     
     st.title("")
     
@@ -269,25 +274,31 @@ if my_page == 'Career Profile':
     
     #####################
     st.markdown('''
-    ## Skills
+    ## Education
     ''')
-    txt3('Programming', '`Python`')
-    txt3('Data Transformation', '`Advanced Excel`, `VBA`, `Alteryx`, `pandas`, `numpy`, `nltk`')
-    txt3('Data Visualization', '`Tableau`, `PowerBI`, `Google Data Studio`, `matplotlib`, `seaborn`, `bokeh`')
-    txt3('Machine Learning', '`scikit-learn`, `scipy`, `gensim`, `networkx`')
-    txt3('Web Scraping', '`selenium`, `beautifiulsoup`')
-    txt3('Model Deployment', '`streamlit`, `Heroku`')
-    txt3('Customer Relationship Management', '`Salesforce ServiceCloud`, `Salesforce Trust`, `SalesforceLightning`')
-    txt3('Change Management', '`ServiceNOW`')
-    txt3('Documentations', '`Confluence`,`Sharepoint`')
-    txt3('Issue Tracking & Project Management', '`JIRA`')
-    txt3('Fundamental Knowledge', '`Databricks`,`Regular Expression`, `RStudio`')
-    
+
+    txt('**Business Administration Major in Financial Management**, *Pamantasan ng Lungsod ng Maynila*, Philippines',
+    '2015 - 2019')
+    st.markdown('''
+    - GPA: `1.63`
+    - Dean's Lister  |  Top Finance Achiever
+    - National Finalist of Top Outstanding Finance Students of the Philippines
+    - Organization : Junitor Financial Executives - PLM Chapter
+        - Junior Officer
+        - Vice President for Publicity and Communication
+        - Vice President for External Affairs
+    ''')
+
     st.title("")
+    
     
     #####################
     st.markdown('''
     ## Social Media
     ''')
-    txt2('LinkedIn', 'https://www.linkedin.com/in/johndalevacaro/')
-    txt2('GitHub', 'https://github.com/Vacaro23')
+    txt6('LinkedIn', 'https://www.linkedin.com/in/johndalevacaro/')
+    txt6('GitHub', 'https://github.com/Vacaro23')
+    txt6('Sarcasm Prediction Modeling','https://github.com/Vacaro23/Projects/blob/main/Sarcasm_Prediction_.ipynb')
+    txt6('Breast Cancer Prediction with SHAP','https://github.com/Vacaro23/Projects/blob/main/Explainable_AI_.ipynb')
+    txt6('Retail Business EDA','https://github.com/Vacaro23/Projects/blob/main/EDA_Retail_Business_.ipynb')
+    txt6('Iris Prediction Decision Tree','https://github.com/Vacaro23/Projects/blob/main/Predicion_DecisionTrees_ipynb')
