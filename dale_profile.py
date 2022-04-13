@@ -130,15 +130,15 @@ st.markdown('''
 txt3('Programming', '`Python`')
 txt3('Data Transformation', '`Advanced Excel`, `Excel VBA`, `Alteryx`, `pandas`, `numpy`, `nltk`')
 txt3('Data Visualization', '`AWS Quicksight`,`Tableau`, `PowerBI`, `Google Data Studio`, `Excel`,`matplotlib`, `seaborn`, `bokeh`, `shap & lime`')
-txt3('Machine Learning', '`scikit-learn`, `scipy`, `gensim`, `networkx`')
+txt3('Machine Learning', '`scikit-learn`, `scipy`')
 txt3('Web Scraping', '`beautifiulsoup`')
 txt3('Process Automation', '`selenium`')
-txt3('Model Deployment', '`streamlit`, `Heroku`')
+txt3('Model Deployment', '`Streamlit`, `Heroku`')
 txt3('Customer Relationship Management', '`Salesforce ServiceCloud`, `Salesforce SalesCloud`')
 txt3('Change Management', '`ServiceNOW`')
 txt3('Knowledge Management', '`Confluence`,`Sharepoint`')
 txt3('Issue Tracking & Project Management', '`JIRA`,`Dataiku`')
-txt3('Others', '`ABBY FlexiCapture`')
+txt3('Image Processing', '`ABBYY FlexiCapture`')
 txt3('Fundamental Knowledge', '`AWS ML`, `AWS Sagemaker`,`VS Code`,`Gephi`,`Databricks`,`Regular Expression`, `RStudio`')
 txt3('2022 Learning Plan', '`DevOps CI/CD`, `AWS Redshift`, `Teradata`, `SAS`, `Microsoft Azure`, `Python Automations`, `Google Cloud Platform`, `Hadoop`, `Spark`')
 
@@ -200,8 +200,8 @@ txt('London Stock Exchange Group - Content Operations & Managed Services: EMEA &
 st.markdown('''
 - Selected as one of the Top 10% Outstanding Employees in the Organization, achieved the highest rating of ‘Leading’ in 2020 Company Year-End Assessment - as a measure of exemplary performance by the following that saved 0.55 FTE:
     - by creation of method of works and documentations,
-    - by doing finanical markets data manipulation and analyzation,
-    - by stock exchange projects and migration
+    - by doing finanical markets data processing and transformation,
+    - by stock exchange projects and technical migration
     - by building 15 excel macros initiatives and
     - by generating automation ideations and proposals
 - Successfully accomplished remarkable performance with 99% data integrity of my daily productions which consistently gave me the award of  ‘Star of the Month’ or ‘Employee of the Month’, within our team - composed of 8 Analysts and 4 Senior Analysts.
@@ -254,7 +254,7 @@ st.markdown('''
 - Accomplished an NLP Modeling Project that predicts if the News Headlines either Sarcastic or Not Sarcastic.
     - Packages: nltk, numpy, seaborn, matplotlib, pandas, contractions, re, string, PIL, wordcloud, sklearn, collections, textblob
     - Methods: Data Pre-Processing, EDA, Text Pre-Processing, Sentiment Analysis, BagOfWords, Logistic Regression, Gradient Boosted Decision Tree, Decision Tree, Random Forest
-- Ongoing -  Explainable AI Bootcamp using LIME, SHAP and other tools
+- Explainable AI Bootcamp using LIME, SHAP and other tools to increase interpretability and understanding of Machine Learning models while sharing to stakeholders.
 ''')
 
 st.title("")
@@ -277,11 +277,12 @@ st.markdown('''
 ''')
 
 txt('**Business Administration Major in Financial Management**, *Pamantasan ng Lungsod ng Maynila*, Philippines',
-'2015 - 2019')
+'')
 st.markdown('''
-- GPA: `1.63`
-- Dean's Lister  |  Top Finance Achiever
-- National Finalist of Top Outstanding Finance Students of the Philippines
+- Achievements : Finance Student
+    - GPA: `1.63`
+    - Dean's Lister  |  Top Finance Achiever
+    - National Finalist of Top Outstanding Finance Students of the Philippines
 - Organization : Junitor Financial Executives - PLM Chapter
     - Junior Officer
     - Vice President for Publicity and Communication
