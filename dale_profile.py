@@ -33,7 +33,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - An Inquisitive Leader focused on Data, Innovation and Technology.
 - Experienced Data Professional in Financial Services and Consulting Industry specializing Financial Markets, and Revenue Data.
-- Exposed in Customer Relationship Management, Content Operations, Business Process Optimization, Projects & Migrations, Data Management, and Business Operations & Sales Enablement.
+- Exposed in Customer Relationship Management, Sales Operations, Content Operations, Project Management, Knowledge Management, Data Modeling, Data & Quality Management, Data Analysis & Insighting, and Data Visualization & Reporting.
 - Expert in streamlining Financial Markets and Revenue data to deliver its best quality to customers and help Senior Leaders generate Strategic Data-Driven Decisions through Research Methods, Exploratory Data Analysis, and Machine Learning Algorithms.
 ''')
 
@@ -128,17 +128,19 @@ st.markdown('''
 ## Skills
 ''')
 txt3('Programming', '`Python`')
-txt3('Data Transformation', '`Advanced Excel`, `VBA`, `Alteryx`, `pandas`, `numpy`, `nltk`')
-txt3('Data Visualization', '`Tableau`, `PowerBI`, `Google Data Studio`, `Excel`,`matplotlib`, `seaborn`, `bokeh`, `shap & lime`')
+txt3('Data Transformation', '`Advanced Excel`, `Excel VBA`, `Alteryx`, `pandas`, `numpy`, `nltk`')
+txt3('Data Visualization', '`AWS Quicksight`,`Tableau`, `PowerBI`, `Google Data Studio`, `Excel`,`matplotlib`, `seaborn`, `bokeh`, `shap & lime`')
 txt3('Machine Learning', '`scikit-learn`, `scipy`, `gensim`, `networkx`')
 txt3('Web Scraping', '`beautifiulsoup`')
 txt3('Process Automation', '`selenium`')
 txt3('Model Deployment', '`streamlit`, `Heroku`')
-txt3('Customer Relationship Management', '`Salesforce ServiceCloud`, `Salesforce Trust`, `Salesforce Lightning`')
+txt3('Customer Relationship Management', '`Salesforce ServiceCloud`, `Salesforce SalesCloud`')
 txt3('Change Management', '`ServiceNOW`')
-txt3('Documentations', '`Confluence`,`Sharepoint`')
-txt3('Issue Tracking & Project Management', '`JIRA`')
-txt3('Fundamental Knowledge', '`Databricks`,`Regular Expression`, `RStudio`, `Test Automation`')
+txt3('Knowledge Management', '`Confluence`,`Sharepoint`')
+txt3('Issue Tracking & Project Management', '`JIRA`,`Dataiku`')
+txt3('Others', '`ABBY FlexiCapture`')
+txt3('Fundamental Knowledge', '`AWS ML`, `AWS Sagemaker`,`VS Code`,`Gephi`,`Databricks`,`Regular Expression`, `RStudio`')
+txt3('2022 Learning Plan', '`DevOps CI/CD`, `AWS Redshift`, `Teradata`, `SAS`, `Microsoft Azure`, `Python Automations`, `Google Cloud Platform`, `Hadoop`, `Spark`')
 
 st.title("")
 
@@ -150,20 +152,20 @@ st.markdown('''
 
 
 txt('`SENIOR ANALYTICS CONSULTANT`',
-'2022 - Present')
+'2021 - 2022')
 txt('Deloitte - Risk Advisory: AU', '')
-#     st.markdown('''
-#     - Pioneered the Data Science Team in Deloitte PH - Risk Advisory Business to create and implement AI solutions to be offered to clients.
-#         - Constructed a technical framework of Predictive Attrition model for employees through Data Science and Machine Learning Algorithms.
-#         - Structured a pipeline for Signature Detection using Image Processing and Detection to extract and verified signatures in documents.
-#         - Contributed to the Voice Detection data gathering in improving TrueVoice solutions for conduct detection and tagging.
-#     - Collaborated smoothly with client stakeholders to have a business understanding with a self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every client data and business questions.
-#     - Proactively pinpointed data logic issues, creating solutions and use cases in order to exceedingly solve client problems and root causes.
-#     - Performed 2 Australian Projects focused on Timesheet Digitization in-charge of data integrity, and achieved a great performance with 0 escalation.
-#     - Generated ideas and created proposals to Technical Specialists to optimize processes and improve efficacies of all members in a project.
-
-
-#     ''')
+st.markdown('''
+- Pioneered Data Science Team in Deloitte PH - Risk Advisory with other consultants, to create and implement AI solutions to be offered to clients.
+    - Constructed a technical framework of Predictive Attrition model for employees with Data Science and Machine Learning Algorithms.
+    - Structured a pipeline for Signature Detection using Image Processing and Detection to extract and verified signatures in documents.
+    - Contributed to the Voice Detection data gathering in improving Speech Recognition solutions for conduct detection and tagging.
+- Lead 2 Australian Projects on Timesheet Digitization of 2 Health Care Companies, in-charge of Data Integrity as Lead Verification Officer:
+    - Maintenance of Data Accuracy, Data Completeness, Data Consistency
+    - Recognized employees timesheet’s risks and inconsistencies on payout, leaves, and benefits.
+- Collaborated smoothly with client stakeholders to define the right business questions with a self-initiated curiosity and with IT Engineers to implement data quality functional services supplementing a detective mindset in every client data.
+- Identified risks and data logic issues, creating solutions and use cases in order to exceedingly solve client goals and problems on their data.
+- Subject Matter Expert in assessing and generating proposals to the development team to optimize processes and improve efficacies of all members in a project.
+     ''')
 
 st.title("")
 
@@ -173,12 +175,15 @@ txt('`BUSINESS OPERATIONS ANALYST`',
 txt('London Stock Exchange Group - Business Operations & Sales Enablement : AMERS', '')
 st.markdown('''
 - Successfully passed sponsored certification of “Financial Information Associate” (FIA) worth $900 given to Top Outperforming employees.
-- Lead the performance metric evaluation of 230+ product sellers in Amers, presenting the result to Head of Americas of Business Operations.
-- Developed global data visualization reports and dashboards for pipeline management to forecast sales data for Senior Directors, Managers, and Sales Stakeholders.
-- Drived new logos and white space growth through historical data analysis and forecasting monthly recurring sales for the whole Americas region.
+- Direct Responsible Individual in the performance metric evaluation of 230+ product sellers in the Americas, consistently presented the result to the Head of Sales. Moreover, includes developing seller segmentation in terms of their region, experience, actuals vs quotas & etc.
+- Reported to the Head of Sales every month, in summarizing and analyzing monthly business performance trends in terms of Outright, Gross and Net Sales, this includes actual vs quota and the variance, as well as suggesting how and what we can do to improve these numbers.
+- Partnered with Head of Enterprise Data Solutions Product and Head of Partners Market along with their Account Directors and Managers to analyze and gain insights, assist, and supervise internal campaigns, reporting analytics, monthly business review and ad-hoc custom reports.
+- Developed global data visualization report and dashboard for pipeline management to forecast renewals data for Senior Management.
 - Planned sales accelerators to amplify key opportunities, bridged gaps within the sales workflows and to support incentives to excellent sellers.
-- Designed KPI data models to assess seller’s performance and Territory Optimization model to align seller’s book of business for turn of the year.
-- Analyzed sales and retention motions by providing operational guidance to deliver 2021 migrations and strategies, executing revenue synergy pathways and incorporating customer lifecycle framework to key renewals.
+- Designed new KPI Data Models to assess seller’s performance and Territory Planning Model to align book of business for turn of the year.
+- Single Point of Contact that managed and assigned a product seller for new and current clients in Americas respective on their experience and specialist, worked along with Customer Success, Lead Generation and Business Development stakeholders.
+- Analyzed sales and retention motions by providing operational guidance to deliver 2021 migrations and strategies, execute revenue synergy pathways and incorporating customer lifecycle framework to key renewals.
+
 
 ''')
 
@@ -200,12 +205,15 @@ st.markdown('''
     - by building 15 excel macros initiatives and
     - by generating automation ideations and proposals
 - Successfully accomplished remarkable performance with 99% data integrity of my daily productions which consistently gave me the award of  ‘Star of the Month’ or ‘Employee of the Month’, within our team - composed of 8 Analysts and 4 Senior Analysts.
-- Successfully planned, supervised and coordinated daily BAU, test new databases and applications release and migrations for new and critical data enhancements in an Agile environment with no supervision from seniors and managers.
-- Performed change management in every projects to improve the transition of the change, collaboration, communication and to create change plans to reduce uncertain issues that avoids client escalations through ServiceNOW.
-- Influenced team members volunteering to new tasks that enhanced adaptability and flexibility for learnings that received zero business critical.
-- Timely published Information, Service and Retrospective Alerts to inform EMEA and SEA clients on changes on products & services with proper Incidenc and Recovery Management of the alerts.
-- Achieved a 10/10 rating from a customer for providing silver bullets that strengthened customer retention, experience and attrition.
-- Identified and pinpointed data inefficiencies and bugs in workstream resolved in JIRA, boosting team performance metrics and data accuracy by ~49% through development and launching of permanent solutions and reinforcement of automations.
+- Successfully planned, supervised and coordinated Financial Markets Master Data (Real-Time Data, Time Series Data, Reference Data) for certain SEA & EMEA markets within the team.
+- Conducted database testing, new application releases and migrations for critical data enhancements in an agile environment with no supervision from seniors and received good feedback from Key Strategic Accounts/Clients.
+- Performed change management in every projects to improve the transition of the change, collaboration, communication and to create change plans to reduce uncertain issues that avoids client escalations through ServiceNOW
+- Point of Contact in raising Information, Service and Retrospective Alerts to inform EMEA and SEA clients on issues and changes on products & services with proper Incident and Recovery Management.
+- Challenged status quo of tenured members and influenced them volunteering to new tasks that enhanced adaptability and flexibility for learnings that received zero business critical.
+- Implemented business unit wide and team knowledge sharings to increase operations sync, find new ways, and create better collaborations.
+- Achieved a 10/10 rating from a customer in Salesforce for providing silver bullets that strengthened customer retention, experience and attrition.
+- Identified and pinpointed data inefficiencies and bugs in workstream, boosting team performance metrics and data accuracy by ~49% through development and launching of permanent solutions and reinforcement of automations.
+
 ''')
 
 st.title("")
@@ -216,7 +224,7 @@ st.markdown('''
 ''')
 
 txt('`DATA SCIENCE FELLOW`',
-'2021 - Present')
+'2021 - 2022')
 txt('Eskwelabs - Data Science & Machine Learning', '')
 st.markdown('''
 - Structured Unsupervised Machine Learning Project using 2019 Philippine Electoral Votes land deployed in Streamlit web application.
@@ -240,7 +248,7 @@ st.markdown('''
 st.title("")
 
 txt('`DATA SCIENCE TRAINEE`',
-'2022 - Present')
+'2022 - 2022')
 txt('DPhi Tech - Data Science & Machine Learning', '')
 st.markdown('''
 - Accomplished an NLP Modeling Project that predicts if the News Headlines either Sarcastic or Not Sarcastic.
@@ -258,18 +266,6 @@ txt('The Sparks Foundation - Data Science & Machine Learning', '')
 st.markdown('''
 - Started a Project as a Business Manager, to do an Exploratory Data Analysis on a Retail Business dataset in order to identify Business Dilemma and to raise Profit, based on the given data.
 - Created a Decision Tree Modeling Project using Iris Dataset to identify correct classification of Flower based from the given data.
-''')
-
-st.title("")
-
-txt('`DATA ENGINEERING SCHOLAR`',
-'2022 - Present')
-txt('Department of Science & Technology - Data Engineer', '')
-st.markdown('''
-- As a Data Engineering Scholar, the scholarship goal is to learn building and managing data workflows, pipelines, ETL processes and platforms.
-- To learn and be responsible for management of the entire data lifecycle: ingestion, processing, surfacing, and storage.
-- To learn and have an in-depth knowledge of programming, databases, data warehousing, and data architecture and pipelining, to use complex tools and techniques to handle data at scale. Also includes machine learning and statistical models in production.
-- The learning pathway includes topics such as: Data Engineering, Operational Analytics, Data Governance, Computing, Data Visualization, Data Analytics Methods and Algorithms, Statistical Techniques, Research Methods, and Domain Knowledge.
 ''')
 
 st.title("")
